@@ -2,7 +2,7 @@ print(" - cálculo de taxa para Cetesb em 2023 - ")
 escolha=int(input("digite 1 para renovação ou 2 para licenciamento/ampliacao: "))
 ufesp=float(34.26)
 if escolha == 1:
-    valorW=int(input("digite o valor do W:"))
+    valorW=float(input("digite o valor do W:"))
     areaConstruida=float(input("digite o total das áreas (construidas/atividade ao ar livre: "))
     import math
     raizQuadrada=(math.sqrt(areaConstruida))
