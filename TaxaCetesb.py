@@ -11,7 +11,7 @@ if escolha == 1:
     print("valor em UFESP:      ", round(cadaEtapa, 2), "       >> valor em UFESP para ME/EPP:      ", round(cadaEtapa*0.15, 2))
     print("valor em REAIS: R$ ", round(cadaEtapa*ufesp, 2), "       >> valor em REAIS para ME/EPP: R$ ", round(cadaEtapa*ufesp*0.15, 2))
 else:
-    valorW = int(input("digite o valor do W:"))
+    valorW = float(input("digite o valor do W:"))
     areaConstruida = float(input("digite o total das áreas (construídas/atividade ao ar livre/novos equipamentos: "))
     import math
     raizQuadrada = (math.sqrt(areaConstruida))
